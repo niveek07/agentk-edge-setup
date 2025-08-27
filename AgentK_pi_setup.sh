@@ -124,7 +124,7 @@ if [ -n "$PS1" ]; then
   echo "			   	   (  : '~' :  )  "
   echo "			 	    '~ .~~~. ~'   "
   echo "				        '~'      "
-  figlet -c -f halfiwi 125_Stone_Cold | lolcat -a --duration=3 -t
+  figlet -c -f halfiwi SiteName | lolcat -a --duration=3 -t
 
   let upSeconds="$(( $(/usr/bin/cut -d. -f1 /proc/uptime) ))"
   let secs=$((upSeconds%60))
