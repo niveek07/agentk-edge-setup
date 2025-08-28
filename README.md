@@ -35,9 +35,9 @@ git pull
 * Internet access for apt and fonts
 * USB stick with the Autosol `.deb` at `/Autosol/`
 * https://autosoln.com/
-```
-#Cameron DO NOT FORGET THIS
 
+##  Cameron DO NOT FORGET THIS
+```
 arm_boost=1
 arm_freq=1300
 core_freq=525
