@@ -44,6 +44,17 @@ core_freq=525
 over_voltage=6
 gpu_freq=700
 ```
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
+```bash
+sudo dphys-swapfile swapoff
+sudo nano /etc/dphys-swapfile
+```
+```bash
+sudo dphys-swapfile setup
+sudo dphys-swapfile swapon
+```
 
 ## What the script does
 
